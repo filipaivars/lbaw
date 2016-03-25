@@ -35,6 +35,11 @@ angular
         controller: 'QuestionCtrl',
         controllerAs: 'question'
       })
+      .when('/searchResults',{
+        templateUrl: 'views/searchResults.html',
+        controller: 'searchResultsCtrl',
+        controllerAs: 'searchResults'
+      })
       .otherwise({
         redirectTo: '/'
       });

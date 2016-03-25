@@ -56,10 +56,15 @@
           <div id="header-buttons">
             <div layout="row" >
               <div flex>
-                <a ng-href="#/"><img src="images/logo.png" style="width: 85px"></a>
+                <a ng-href="./admin.html"><img src="images/logo.png" style="width: 85px"></a>
               </div>
               <div flex="30" style="margin-top:10px; text-align: right;">
-                <img src="images/search.png">
+                <form  layout="row">
+                  <input flex="80" type="text" name="searchText" placeholder="search" style="background-color: #282827; color: white; outline: none">
+                  <a ng-href="#/searchResults"><img src="images/search.png"></a>
+                  <!--<input type="button" style="background-image: url(/images/search.png); width: 32px; height: 32px; background-color: #282827">-->
+                </form>
+
               </div>
               <div flex="10" style="text-align: right">
                 <img src="images/msg.png" style="height: 40px">
@@ -173,6 +178,7 @@
           <script src="scripts/controllers/main.js"></script>
           <script src="scripts/controllers/about.js"></script>
           <script src="scripts/controllers/question.js"></script>
+          <script src="scripts/controllers/searchResults.js"></script>
           <!-- endbuild -->
   </body>
   </html>
