@@ -1,0 +1,36 @@
+<!doctype html> <html> <head> <meta charset="utf-8"> <title></title> <meta name="description" content=""> <meta name="viewport" content="width=device-width"> <!-- Place favicon.ico and apple-touch-icon.png in the root directory --> <link rel="stylesheet" href="styles/vendor.095beb55.css"> <link rel="stylesheet" href="styles/main.b096ad90.css"> <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css"> </head> <body ng-app="lbawApp"> <!--[if lte IE 8]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+      <![endif]--> <!-- Add your site or application content here --> <!--
+      <div class="header">
+        <div class="navbar navbar-default" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#js-navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="#/">lbaw</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="js-navbar-collapse">
+
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#/">Casa</a></li>
+                <li><a ng-href="#/about">About</a></li>
+                <li><a ng-href="#/">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+  --> <div class="header" style="background-color: #282827"> <div class="header_1" style="height: 50px"> <div id="header-buttons"> <div layout="row"> <div flex> <a ng-href="./admin.html"><img src="images/logo.07955600.png" style="width: 85px"></a> </div> <div flex="30" style="margin-top:10px; text-align: right"> <form layout="row"> <input flex="80" type="text" name="searchText" placeholder="search" style="background-color: #282827; color: white; outline: none"> <a ng-href="#/searchResults"><img src="images/search.f804b25a.png"></a> <!--<input type="button" style="background-image: url(/images/search.f804b25a.png); width: 32px; height: 32px; background-color: #282827">--> </form> </div> <div flex="10" style="text-align: right"> <img src="images/msg.b8527329.png" style="height: 40px"> </div> <div flex="10" style="text-align: right"> <a ng-href="#/about"><img src="images/user.6884cd8c.png"></a> </div> </div> </div> </div> <div class="header_2"> ask a question <hr style="width: 30%"> <div class="aparece" style="padding-left: 30%; padding-right: 30%"> <form> <input type="text" name="questionTitle" placeholder="Title" style="width: 100%; margin-top: 10px"><br> <input type="text" name="questionDescription" placeholder="Description" style="width: 100%; height: 100px; margin-top: 10px"><br> <div layout="row"> <input flex type="text" name="questionTag" placeholder="tags" style="width: 1000%; margin-top: 10px"> <div flex="33" style="text-align: right"> <input type="button" name="questionButton" value="post question" style="margin-top:7px; background-color: #f1423b; color: white"> </div> </div> </form> </div> </div> </div> <div class="container"> <div ng-view=""></div> </div> <div class="footer" style="background-color: #282827"> <div class="container"> <div layout="row"> <div flex> <ul style="color: #ee453e"> <li>chat</li> <li>about us</li> <li>contact</li> <li>help</li> </ul> </div> <div flex> <ul style="color: #d9d9d8"> <li>rpg</li> <li>mmo</li> <li>moba</li> <li>fps</li> <li>adventure</li> <li>action</li> </ul> </div> <div flex> <ul style="color: #d9d9d8"> <li>PC</li> <li>PlayStation</li> <li>Xbox</li> <li>PSP</li> <li>Wii</li> </ul> </div> <div flex> <ul style="color: #d9d9d8"> <li>Square Enix</li> <li>Rockstar</li> <li>Blizzard</li> <li>Ubisoft</li> </ul> </div> <div flex="40"> </div> </div> </div> </div> <!-- Google Analytics: change UA-XXXXX-X to be your site's ID --> <script>!function(A,n,g,u,l,a,r){A.GoogleAnalyticsObject=l,A[l]=A[l]||function(){
+         (A[l].q=A[l].q||[]).push(arguments)},A[l].l=+new Date,a=n.createElement(g),
+         r=n.getElementsByTagName(g)[0],a.src=u,r.parentNode.insertBefore(a,r)
+         }(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+         ga('create', 'UA-XXXXX-X');
+         ga('send', 'pageview');</script> <script src="scripts/vendor.8bbde80b.js"></script> <script src="scripts/scripts.81038407.js"></script> </body> </html>
